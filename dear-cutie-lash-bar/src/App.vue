@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -8,7 +7,7 @@
   </div>
 </template>
 
-<style scoped>
+<style >
 .logo {
   height: 6em;
   padding: 1.5em;

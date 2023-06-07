@@ -4,8 +4,19 @@ import postcss from 'postcss';
 import autoprefixer from 'autoprefixer';
 import tailwindcss from 'tailwindcss';
 import type { Plugin } from 'vite';
+import path from 'path';
 
 export default defineConfig({
+  // build: {
+  //   commonjsOptions: {
+  //     include: ['tailwind-config.js', 'node_modules/**'],
+  //   },
+  // },
+
+  // optimizeDeps: {
+  //   include: ['tailwind-config'],
+  // },
+
   plugins: [
     vue(),
     {
@@ -26,4 +37,11 @@ export default defineConfig({
       },
     } as Plugin,
   ],
+
+  // resolve: {
+  //   alias: {
+  //     '@': path.resolve(__dirname, './src'),
+  //     'tailwind-config': path.resolve(__dirname, './tailwind.config.js'),
+  //   },
+  // },
 });

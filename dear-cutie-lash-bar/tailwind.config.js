@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["*"],
+  content: ['*', './public/**/*.html','./src/**/*.{js,jsx,ts,tsx,vue}'],
   theme: {
     extend: {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif'],
       },
       colors: {
-        primary: 'rgba(255, 255, 255, 0.87)',
+        primaryDark: '#AB0086',
+        primaryLight: '#FFDCe5',
+        secondaryDark: '#F09FDF',
+        secondaryLight: '#EBE4D4',
         link: '#646cff',
         hoverLink: '#535bf2',
         customGradient: {

@@ -1,22 +1,12 @@
 <script setup lang="ts">
+import NavBar from './components/NavBar.vue'
+import '../style.css'
 
 </script>
 
 <template>
-  <div class="flex flex-col">
-    <img src="/Brandmark.svg" class="logo" alt="DC logo" />
+  <div>
+    <NavBar/>
   </div>
 </template>
 
-<style >
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #AB0086);
-}
-</style>

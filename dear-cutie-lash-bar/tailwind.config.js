@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './app/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ["*"],
   theme: {
     extend: {
       fontFamily: {
@@ -12,12 +8,13 @@ export default {
       },
       colors: {
         primary: 'rgba(255, 255, 255, 0.87)',
-        background: '#242424',
         link: '#646cff',
         hoverLink: '#535bf2',
-        gradientStart: '#F19FDF',
-        gradientMiddle: '#EBE4D4',
-        gradientEnd: '#FFDDE5',
+        customGradient: {
+          'start': '#F19FDF',
+          'middle': '#EBE4D4',
+          'end': '#FFDDE5',
+        },
       },
       lineHeight: {
         tighter: '1.1',
@@ -49,4 +46,6 @@ export default {
   },
   plugins: [],
 }
+
+
 

@@ -1,13 +1,15 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col">
     <img src="/Brandmark.svg" class="logo" alt="DC logo" />
   </div>
 </template>
 
 <style >
+
 .logo {
   height: 6em;
   padding: 1.5em;

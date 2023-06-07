@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif'],
+        'Cinzel': ['Cinzel', 'serif'],
+        'Cinzel-Decorative': ['Cinzel Decorative', 'cursive']
       },
       colors: {
         primaryDark: '#AB0086',

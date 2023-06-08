@@ -4,7 +4,7 @@ import '../../style.css'
 
 <template>
  <div class="relative left-20 top-96 h-min-content flex flex-col">
-      <div class="font-sans font-light text-2xl text-[#0d0d0d]">Luxury, Science-Led Keratin Lash Lifts +</div>
-      <div class="font-sans font-light text-2xl text-[#0d0d0d]">Tinting Services</div>
+      <div class="font-sans font-light text-2xl text-[#772B66]">Luxury, Science-Led Keratin Lash Lifts +</div>
+      <div class="font-sans font-light text-2xl text-[#772B66]">Tinting Services</div>
     </div>
 </template>

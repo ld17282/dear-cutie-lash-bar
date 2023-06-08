@@ -52,6 +52,24 @@ export default {
       height: {
         100: '800px'
       },
+      animation: {
+        rotate: 'rotateCounterClockwise 30s linear infinite',
+        wiggle: 'wiggle 3s ease-in-out infinite'
+      },
+      keyframes: {
+        rotateCounterClockwise: {
+          from: {
+            transform: 'rotate(0deg)'
+          },
+          to: {
+            transform: 'rotate(-360deg)'
+          }
+        },
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-5deg)' },
+          '50%': { transform: 'rotate(5deg)' }
+        }
+      },
       extend: {
         screens: {
           'light-mode': { raw: '(prefers-color-scheme: light)' }

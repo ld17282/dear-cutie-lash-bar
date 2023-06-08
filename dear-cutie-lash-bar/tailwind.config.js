@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['*', './public/**/*.html','./src/**/*.{js,jsx,ts,tsx,vue}'],
+  content: ['*', './public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif'],
-        'Cinzel': ['Cinzel', 'serif'],
+        sans: [
+          'Inter',
+          'system-ui',
+          'Avenir',
+          'Helvetica',
+          'Arial',
+          'sans-serif'
+        ],
+        Cinzel: ['Cinzel', 'serif'],
         'Cinzel-Decorative': ['Cinzel Decorative', 'cursive']
       },
       colors: {
@@ -16,41 +23,41 @@ export default {
         link: '#646cff',
         hoverLink: '#535bf2',
         customGradient: {
-          'start': '#F19FDF',
-          'middle': '#EBE4D4',
-          'end': '#FFDDE5',
-        },
+          start: '#F19FDF',
+          middle: '#EBE4D4',
+          end: '#FFDDE5'
+        }
       },
       lineHeight: {
-        tighter: '1.1',
+        tighter: '1.1'
       },
       fontSize: {
-        '3xl': '3.2em',
+        '3xl': '3.2em'
       },
       borderWidth: {
-        DEFAULT: '1px',
+        DEFAULT: '1px'
       },
       borderRadius: {
-        DEFAULT: '8px',
+        DEFAULT: '8px'
       },
       padding: {
-        '2.5': '0.6em 1.2em',
+        2.5: '0.6em 1.2em'
       },
       minWidth: {
-        '320': '320px',
+        320: '320px'
       },
       minHeight: {
-        'screen-vh': '100vh',
+        'screen-vh': '100vh'
+      },
+      height: {
+        100: '800px'
       },
       extend: {
         screens: {
-          'light-mode': { raw: '(prefers-color-scheme: light)' },
-        },
-      },
-    },
+          'light-mode': { raw: '(prefers-color-scheme: light)' }
+        }
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
-
-
-

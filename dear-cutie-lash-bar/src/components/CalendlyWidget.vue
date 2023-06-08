@@ -16,7 +16,7 @@ import { ref } from 'vue'
 import '../../style.css'
 
 export default {
-  setup () {
+  setup() {
     const calendlyUrl = ref(
       'https://calendly.com/laurence-diarra/dear-cutie-test'
     )

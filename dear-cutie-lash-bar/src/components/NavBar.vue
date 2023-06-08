@@ -1,11 +1,5 @@
 <script setup lang="ts">
 import '../../style.css'
-// import resolveConfig from 'tailwindcss/resolveConfig'
-// import tailwindConfig from 'tailwind-config'
-
-// const twConfig = resolveConfig(tailwindConfig);
-
-// console.log('twConfig', twConfig);
 </script>
 
 <template>

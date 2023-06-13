@@ -21,7 +21,7 @@ defineComponent(options)
 </script>
 
 <template>
-  <AnimatedAurora />
+  <!-- <AnimatedAurora /> temporarily comenting out due to bug -->
   <section id="hero" class="z-10">
     <NavBar />
     <HeroSection />

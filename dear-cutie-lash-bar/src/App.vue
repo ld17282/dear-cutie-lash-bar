@@ -30,3 +30,18 @@ defineComponent(options)
     <CalendlyWidget />
   </section>
 </template>
+
+<style>
+/* Your component's general styles here */
+
+/* Media queries for phones */
+@media screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide (e.g., smartphones) */
+  /* Adjust font sizes, margins, padding, and other properties to fit smaller screens */
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /* Styles for screens between 481px and 767px wide (e.g., larger smartphones, small tablets) */
+  /* Further adjustments for font sizes, margins, padding, and other properties */
+}
+</style>

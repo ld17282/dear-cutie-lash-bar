@@ -4,7 +4,7 @@ import '../../style.css'
 
 <template>
   <div class="flex flex-col justify-center">
-    <img src="../assets/Site Logo.svg" class="logo" alt="DC logo" />
+    <img src="../assets/SiteLogo.svg" class="logo" alt="DC logo" />
     <hr class="h-px w-11/12 border-[#F880DD] border-1 self-center" />
   </div>
 </template>

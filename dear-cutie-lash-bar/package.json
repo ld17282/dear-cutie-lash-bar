@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "vue-tsc": "vue-tsc",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue}\""
@@ -21,6 +22,8 @@
     "@typescript-eslint/eslint-plugin": "^5.59.9",
     "@typescript-eslint/parser": "^5.59.9",
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "@vue/compiler-sfc": "^3.3.4",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
